@@ -8,7 +8,7 @@ import java.util.Properties;
 /**
  *
  * Call it as:
- * Connection conn = SingletonDbManager.getInstance().getConnection()
+ * Connection conn = SingletonDbManager.getInstance().getConnection();
  * Statement statement = conn.createStatement();
  * String sql = "Select count(*) as amount From users";
  * ResultSet set = statement.executeQuery(sql);
